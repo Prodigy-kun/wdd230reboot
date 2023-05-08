@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35.4em){
+    nav ul{
+        display: flex;
+        
+        /* margin: 0;
+        padding: 0; */
+        /* justify-content: space-evenly; */
+    }
+    nav ul li{
+        flex: 1;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 50em){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+    margin-top: 2em;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+nav ul li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 95%;
+    margin: 1em auto;
+}
+section h2{
+    background-color:red;
+    color: white;
+    padding: .2em;
+    border-radius: 10px;
+}
+section:last-child img{
+    display: block;
+    width: 35%;
+    margin: .8em auto;
+    max-width: 200px;
+}
+section:nth-of-type(2) ul li:nth-of-type(1){
+    list-style: none;
+    margin-bottom: .4em;
+}
+
+/* complementary CSS for the audience page */
+.container2 p{
+    padding: 10px;
+    line-height: 1.3em;
+}
+.container2 section:nth-of-type(2) ul, .container2 section:nth-of-type(3) ul{
+    padding: 10px;
+    list-style: none;
+    line-height: 1.3em;
+}
+.container2 section:last-child ul{
+    padding: 0;
+    margin-left: 2em;
+}
+/* Css for color page */
+.container3 div{
+    padding: 2em;
+    border: 2px solid black;
+}
+.container3 div:nth-of-type(1){
+    background-color: #1B1B3A;
+    color: white;
+}
+.container3 div:nth-of-type(2){
+    background-color: #ff3562;
+    color: white;
+}
+.container3 div:nth-of-type(3){
+    background-color: #848482;
+    color: white;
+}
+/* Css for typography page */
+.container4 section{
+    padding: 1em;
+    line-height: 1.7em;
+}
+footer{
+    font-size: .8em;
+}
